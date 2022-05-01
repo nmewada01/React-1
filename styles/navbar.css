@@ -1,0 +1,95 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: slategrey;
+}
+h3{
+  text-align: center;
+  color:darkred;
+  font-size: 25px;
+
+}
+
+#options {
+  display: flex;
+  gap: 15px;
+}
+a{
+    text-decoration: none;
+    color: green;
+
+}
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+#form{
+  margin-top: 100px;
+  width:100%;
+  height:100px;
+  margin:auto;
+  padding:10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#img{
+  font-size: 16px;
+  height:15px;
+}
+
+#Name{
+  font-size: 16px;
+  height:15px;
+}
+#location{
+  font-size: 16px;
+  height:15px;
+}
+#place{
+  font-size: 16px;
+  height:15px;
+}
+#submit{
+  background-color: black;
+  color:white;
+  padding: 5px;
+  border-radius: 5px;
+  height:30px;
+  width:100px;
+  
+}
+#submit:hover{
+ margin-left:5px;
+}
+#submit:focus{
+  background-color:crimson;
+}
+
+#show{
+  border: 1px solid beige;
+  width:25%;
+  padding:auto;
+  height:400px;
+  margin:auto;
+  margin-top: 35px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+}
+#show>div>img{
+  width:250px;
+  height:250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  background-color:lightblue;
+
+}
+#show>div{
+  text-align: center;
+}
+#show>div>p{
+  color:red;
+}
+
